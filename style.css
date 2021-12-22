@@ -1,0 +1,328 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*BODY*/
+body {
+    font-family: Spectral;
+    color: rgb(212, 33, 144);
+}
+
+/*NAV*/
+nav {
+    width: 90vw;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(212, 33, 144);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*HEADER*/
+header {
+    width: 100vw;
+    height: 175vh;
+}
+
+.strapline-container {
+    border: 2px solid rgb(238, 88, 180);
+    width: 90%;
+    height: 90%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./images/newdonutheader.webp);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main-strapline {
+    color: rgb(212, 33, 144);
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 50px 0px;
+    font-family: Spectral;
+}
+
+.second-strapline {
+    color: #ffffdd;
+    font-size: 35px;
+    font-style: italic;
+    font-family: Spectral;
+}
+
+/*MAIN*/
+.section-title {
+    text-align: center;
+    font-family: Spectral;
+    color: rgb(212, 33, 144);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+/*MAIN-ABOUT*/
+.about-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left-box {
+   width: 45%;
+   text-align: justify;
+   line-height: 170%;
+   font-weight: bold;
+   letter-spacing: 0.9px;
+}
+
+.about-right-box {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/opensign2.webp);  
+    background-size: cover;
+    background-position: center;
+}
+
+.about-grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/floatingdonut.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/skulldonutsnack.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/donutdisplay.webp);
+    background-size: cover;
+    background-position: left;
+}
+
+/*MAIN DONUTS SECTION*/
+
+.donuts-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+}
+
+#donut-one {
+    background-image: url(./images/towerdonut.webp);
+}
+
+#donut-two {
+    background-image: url(./images/sprinkledonut.webp);
+}
+
+#donut-three {
+    background-image: url(./images/oreodonut.webp);
+}
+
+#donut-four {
+    background-image: url(./images/donuts.jpeg);
+}
+
+#donut-five {
+    background-image: url(./images/litdonuts.webp);
+}
+
+#donut-six {
+    background-image: url(./images/wirerackdonut.webp);
+}
+
+#donut-seven {
+    background-image: url(./images/unicorndonut.webp);
+}
+
+#donut-eight {
+    background-image: url(./images/vampiredonuts.jpeg);
+}
+
+#donut-nine {
+    background-image: url(./images/aboutdonut.webp);
+}
+
+/*LOCATIONS*/
+
+.store-section {
+    width: 100vw;
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.store-div {
+    width: 30%;
+    height: 130px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.secret {
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.secret:hover {
+    color: rgb(212, 33, 144);
+}
+
+.secret a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.secret a:visited{
+    color: white;
+}
+
+.secret a:hover {
+    color: rgb(212, 33, 144);
+}
+
+/*FOOTER-CONTACT*/
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(212, 33, 144);
+    color: #ffffdd;
+    text-align: center;
+}
+
+.contact-title {
+    margin: 25px 0px;
+    font-family: "Spectral", sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 130%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    margin: .5px 7.5px;
+}
+
+/*REVIEWS*/
+
+.review-container {
+    width: 90vw;
+    margin: 10px auto;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-review-box {
+    border: 2px solid rgb(212, 33, 144);
+    background-image: url(./images/skeletonreview.webp);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.right-review-box {
+    width: 40%;
+    height: auto;
+    margin: 5px auto;
+    
+}
+
+.review-text {
+    margin: 10% auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.username-review {
+    text-align: right;
+}
