@@ -1,2 +1,2 @@
 # Infernal-Donuts
- website for a fictional donut shop 
+A website for fictional donut shop I would very much like to visit. 
