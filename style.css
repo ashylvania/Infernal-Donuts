@@ -326,3 +326,53 @@ h4 {
 .username-review {
     text-align: right;
 }
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 415px) {
+    /*NAV MEDIA MAX 415PX*/
+    nav {
+        width: 100vw;
+        margin: 10px auto;
+        text-align: center;
+        background-color: rgb(212, 33, 144);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 0px 10px;
+    }
+
+    .strapline-container {
+        border: 2px solid rgb(238, 88, 180);
+        width: 90vw;
+        height: 90vh;
+        margin: auto auto;
+        text-align: center;
+        background-image: url(./images/newdonutheader.webp);
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .main-strapline {
+        color: rgb(212, 33, 144);
+        text-transform: uppercase;
+        font-size: 50px;
+        margin: 40px 0px;
+        font-family: Spectral;
+    }
+
+    .second-strapline {
+        color: #ffffdd;
+        font-size: 20px;
+        font-style: italic;
+        font-family: Spectral;
+    }
+}
